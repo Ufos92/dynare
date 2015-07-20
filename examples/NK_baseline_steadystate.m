@@ -4,13 +4,13 @@ function [ys,check] = NK_baseline_steadystate(ys,exo)
 % solver to do so
 % Inputs: 
 %   - ys        [vector] vector of initial values for the steady state of
-%                   the endogenous variables
+%                        the endogenous variables
 %   - exo       [vector] vector of values for the exogenous variables
 %
 % Output: 
-%   - ys        [vector] vector of steady state values fpr the the endogenous variables
-%   - check     [scalar] set to 0 if steady state computation worked and to
-%                    1 of not (allows to impos restriction on parameters)
+%   - ys        [vector] vector of steady state values for the endogenous variables
+%   - check     [scalar] set to 0 if steady state computation worked and to 1 if not 
+%                        (allows to impose restriction on parameters)
 
 global M_ 
 
